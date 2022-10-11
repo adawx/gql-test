@@ -1,20 +1,5 @@
-# typescript-base
+# GraphQL Test
 
-A no-frills base for any typescript project. Containing only typescript config, jest &amp; linting rules.
+PLaying around with graphql to understand how it works.
 
-Builds to `dist`. To turn this off in tsconfig replace the following:
-```
-    "noEmit": false,
-    "outDir": "dist",
-    "declaration": true,
-```
-with
-```
-    "noEmit": true,
-```
-
-`yarn install`
-`yarn build`
-`yarn lint`
-`yarn test`
-`yarn start`
+simple dev server
